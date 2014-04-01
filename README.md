@@ -1,0 +1,4 @@
+pingu
+=====
+
+Heroku app pinger.
