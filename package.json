@@ -1,0 +1,15 @@
+{
+  "name": "pingu",
+  "version": "0.0.1",
+  "description": "Heroku pinger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tomas@salsitasoft.com",
+  "license": "MIT",
+  "dependencies": {
+    "heroku-client": "^1.2.0",
+    "superagent": "^0.17.0"
+  }
+}
