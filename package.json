@@ -1,6 +1,6 @@
 {
   "name": "pingu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pingu prevents all your Heroku dynos from sleeping.",
   "main": "index.coffee",
   "bin": {
