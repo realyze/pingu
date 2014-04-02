@@ -2,7 +2,10 @@
   "name": "pingu",
   "version": "0.1.0",
   "description": "Pingu prevents all your Heroku dynos from sleeping.",
-  "main": "index.js",
+  "main": "index.coffee",
+  "bin": {
+    "pingu": "./bin/pingu"
+  },
   "engines": {
     "node": ">=0.10"
   },
