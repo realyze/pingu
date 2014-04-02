@@ -1,7 +1,7 @@
 pingu
 =====
 
-Pingu is a Heroku app pinger that prevents your dynos from falling asleep.
+Pingu is a tiny little Heroku app pinger that prevents your dynos from falling asleep.
 
 Kinda like that horrible guard guy on Reykjavik airport.
 
