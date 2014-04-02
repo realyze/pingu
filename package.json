@@ -1,12 +1,19 @@
 {
   "name": "pingu",
   "version": "0.0.1",
-  "description": "Heroku pinger.",
+  "description": "Pingu prevents all your Heroku dynos from sleeping.",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  }
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/coffee index.coffee"
   },
-  "author": "tomas@salsitasoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realyze/pingu"
+  },
+  "author": "Tomas Brambora <tomas@salsitasoft.com>",
   "license": "MIT",
   "dependencies": {
     "heroku-client": "1.2.0",
