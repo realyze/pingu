@@ -4,7 +4,7 @@
   "description": "Pingu prevents all your Heroku dynos from sleeping.",
   "main": "index.coffee",
   "bin": {
-    "pingu": "./bin/pingu"
+    "pingu": "./bin/pingu.js"
   },
   "engines": {
     "node": ">=0.10"
