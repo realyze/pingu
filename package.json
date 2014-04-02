@@ -9,7 +9,9 @@
   "author": "tomas@salsitasoft.com",
   "license": "MIT",
   "dependencies": {
-    "heroku-client": "^1.2.0",
-    "superagent": "^0.17.0"
+    "heroku-client": "1.2.0",
+    "superagent": "0.17.0",
+    "q": "1.0.1",
+    "coffee-script": "1.7.1"
   }
 }
