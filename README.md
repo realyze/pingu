@@ -5,7 +5,7 @@ Pingu is a tiny little Heroku app pinger that prevents your dynos from falling a
 
 Kinda like that horrible guard guy on Reykjavik airport.
 
-![Pingu](http://www-groups.dcs.st-and.ac.uk/~robertt/robsweb/pingu2t.gif)
+![Pingu](http://uploadingit.com/file/view/n6gcmemr2nfjimpf/pingu_heroku.png)
 
 #Usage (recommended)
 
