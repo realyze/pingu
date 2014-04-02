@@ -15,6 +15,6 @@ Kinda like that horrible guard guy on Reykjavik airport.
    limit access (only make it readable by pingu)! You can source it in your pingu user `~/.bashrc` file.
 3. Create a Cron job that runs pingu and pass it the Heroku token. Something like:
 
-        HEROKU_API_KEY=${HEROKU_API_KEY} ${HOME}/pingu/node_modules/.bin/coffee ${HOME}/pingu
+        */30 * * * * HEROKU_API_KEY=${HEROKU_API_KEY} ${HOME}/pingu/node_modules/.bin/coffee ${HOME}/pingu
 
 4. PROFIT!
