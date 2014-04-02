@@ -20,5 +20,8 @@
     "superagent": "0.17.0",
     "q": "1.0.1",
     "coffee-script": "1.7.1"
-  }
+  },
+  "keywords": [
+    "heroku"
+  ]
 }
