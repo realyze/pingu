@@ -15,7 +15,7 @@ Kinda like that horrible guard guy on Reykjavik airport.
 4. Tell pingu to run a dummy node server and loop forever: `heroku config:set KEEP_RUNNING=true -a <pingu-app-name>`
 5. Profit!
 
-You can set the pinging interval via `LOOP_INTERVAL` env var (set it to ms between pings).
+You can set the pinging interval via `LOOP_INTERVAL` env var (set it to ms between pings). It defaults to 30 minutes.
 
 
 # Usage (as a cronjob)
