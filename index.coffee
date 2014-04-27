@@ -1,6 +1,7 @@
 Q = require 'q'
 request = require 'superagent'
 Heroku = require 'heroku-client'
+http = require 'http'
 
 heroku = new Heroku token: process.env.HEROKU_API_KEY
 
@@ -36,6 +37,12 @@ if process.env.KEEP_RUNNING
       looper()
     , LOOP_INTERVAL
   looper()
+
+  server = http.createServer (req, res) ->
+    res.writeHead 200
+    res.end ''
+  server.listen(process.env.PORT)
+
 else
   ping()
 
