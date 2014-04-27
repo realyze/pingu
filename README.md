@@ -7,7 +7,18 @@ Kinda like that horrible guard guy on Reykjavik airport.
 
 ![Pingu](http://uploadingit.com/file/n6gcmemr2nfjimpf/pingu_heroku.png)
 
-#Usage (recommended)
+# Usage (as a Heroku app)
+
+1. Create a heroku app (with the name of your choice).
+2. Clone Pingu and push (deploy) it as that Heroku app.
+3. `heroku config:set HEROKU_API_KEY=<key> -a <pingu-app-name>`
+4. Tell pingu to run a dummy node server and loop forever: `heroku config:set KEEP_RUNNING=true -a <pingu-app-name>`
+5. Profit!
+
+You can set the pinging interval via `LOOP_INTERVAL` env var (set it to ms between pings).
+
+
+# Usage (as a cronjob)
 
 1. Run `npm install -g pingu`.
 2. Create a pingu user.
@@ -17,4 +28,4 @@ Kinda like that horrible guard guy on Reykjavik airport.
 
         */30 * * * * HEROKU_API_KEY=${HEROKU_API_KEY} pingu
 
-4. PROFIT!
+4. Profit!
